@@ -1,0 +1,17 @@
+拷贝6.26，界面结果显示，客户端。
+原候选网络的构建结果缺失部分，关键点的插入对关键字的判断不正确。
+合并网络对后续分支的重复层重置存在问题
+候选网络叶子扩展顺序依然沿用原方法，不是简单依靠名字确认。
+分类
+
+测试实例：
+relational,database,search（3分支）
+keyword search,relational database
+metrics,establishing,mainstream
+Constraints,Generation,Correlated
+Multimedia Server,Streaming Media,mainstream
+database tool translation/database tool
+Jens,David,ShibGrid(7分支)
+
+关键词调换顺序会出现结果不同的情况
+注意：完整代码运行一次需要近4分钟，主要是卡在数据图加载
